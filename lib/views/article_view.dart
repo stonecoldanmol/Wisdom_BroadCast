@@ -24,8 +24,8 @@ Widget build(BuildContext context){
         title: Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            Text("Flutter"),
-            Text("News",style: TextStyle(
+            Text("Wisdom"),
+            Text("BroadCast",style: TextStyle(
                 color: Colors.blue
             ),)
           ],
