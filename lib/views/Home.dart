@@ -45,12 +45,13 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context){
   return Scaffold(
     appBar: AppBar(
+      //backgroundColor: Colors.purpleAccent,
       title: Row(
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
           Text("Wisdom"),
           Text("BroadCast",style: TextStyle(
-            color: Colors.blue
+            color: Colors.purpleAccent
           ),)
         ],
       ),
@@ -70,14 +71,14 @@ class _HomeState extends State<Home> {
           Container(
             height: 70,
             child: ListView.builder(
-              itemCount: categories.length,
+                itemCount: categories.length,
                 shrinkWrap: true,
                 scrollDirection: Axis.horizontal,
                 itemBuilder: (context,index){
-                return CategoryTile(
-                  imageUrl: categories[index].imageUrl,
-                  categoryName: categories[index].categoryName,
-                );
+                  return CategoryTile(
+                    imageUrl: categories[index].imageUrl,
+                    categoryName: categories[index].categoryName,
+                  );
                 }),
           ),
           ///Blogs
@@ -89,12 +90,12 @@ class _HomeState extends State<Home> {
                 shrinkWrap: true,
                 physics: ClampingScrollPhysics(),
                 itemBuilder: (context,index){
-                 return BlogTile(
-                   imageUrl: articles[index].urlToImage,
-                   title: articles[index].title,
-                   desc: articles[index].description,
-                   url: articles[index].url,
-                 );
+                  return BlogTile(
+                    imageUrl: articles[index].urlToImage,
+                    title: articles[index].title,
+                    desc: articles[index].description,
+                    url: articles[index].url,
+                  );
                 }),
           )
         ],

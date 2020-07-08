@@ -43,7 +43,7 @@ class _CategoryNewsState extends State<CategoryNews> {
           children: <Widget>[
             Text("Wisdom"),
             Text("BroadCast",style: TextStyle(
-                color: Colors.blue
+                color: Colors.purpleAccent
             ),)
           ],
         ),

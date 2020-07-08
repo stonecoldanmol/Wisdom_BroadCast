@@ -26,7 +26,7 @@ Widget build(BuildContext context){
           children: <Widget>[
             Text("Wisdom"),
             Text("BroadCast",style: TextStyle(
-                color: Colors.blue
+                color: Colors.purpleAccent
             ),)
           ],
         ),
