@@ -1,6 +1,7 @@
-# flutterapp
-
-A new Flutter application.
+# Wisdom BroadCast
+News app which broadcasts the hot and trending news going around the world. It is the News app which works on News API: https://newsapi.org/ and fetches the news to keep you up-to-date with the ongoing in and around the nation.
+This app is made for the purpose of the App Innovation Challenge(https://innovate.mygov.in/app-challenge/)to make serve India’s own News app and citizens use it with wisdom.
+Made in India with Love!
 
 ## Getting Started
 
